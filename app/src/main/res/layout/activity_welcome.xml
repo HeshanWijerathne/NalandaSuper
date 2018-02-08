@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/welcome"
+    android:id="@+id/l1"
+    tools:context=".welcomeActivity">
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="420dp"
+            android:text="@string/welcomeText"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/subtopic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="230dp"
+        android:fontFamily="cursive"
+        android:text="@string/subtitle"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textSize="25dp"/>
+    </LinearLayout>
+</LinearLayout>
